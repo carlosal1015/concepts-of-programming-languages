@@ -8,7 +8,7 @@ Rosenheim Technical University
 sebastian.macke@qaware.de
 http://www.qaware.de
 
-* Lisp - List processing
+* Lisp
 
 * Lisp Cheat Sheet
 
@@ -30,11 +30,7 @@ http://www.qaware.de
       (if (< n 2) n
           (+ (fib (1- n)) (fib (- n 2)))))
 
-* Forth - Easier than Assembler
-
-* Postfix notation or Reverse Polish Notation
-
-* Forth cheat sheet
+* Forth
 
 Forth is a compiled and interpreted language at the same time
 

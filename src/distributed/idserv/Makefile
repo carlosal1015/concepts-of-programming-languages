@@ -2,6 +2,7 @@
 # Makefile. Usage: make <target>.
 # 
 
+
 help:
 	clear
 	@echo "---------------------------------------------------------------------------------------------------------"
@@ -17,11 +18,11 @@ help:
 
 ginstall:
 	go get -u google.golang.org/grpc
-	go get -u google.golang.org/protobuf
+	go get -u github.com/golang/protobuf/protoc-gen-go
 	echo Make sure that protoc is installed for your platform
 
 gcompile:
-	protoc -I remote/idserv/ remote/idserv/idserv.proto --go_out=plugins=grpc:remote
+	protoc -I remote/idserv/ remote/idserv/idserv.proto --go_out=plugins=grpc:remote/idserv 
 
 clean:
 	rm remote/idserv/*.pb.go

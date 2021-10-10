@@ -6,7 +6,6 @@ If you do not finish during the lecture period, please finish it as homework.
 
 - Install Go from <http://golang.org> inside a virtual disk
   (.vhdx on Windows or .sparseimage on Mac) in a /software/go subdirectory.
-  To have a really independent image choose the Archives and not the installers.
 
   - Win: <https://www.windowscentral.com/how-create-and-set-vhdx-or-vhd-windows-10>
   - Mac: <https://support.apple.com/de-de/guide/disk-utility/dskutl11888/mac>
@@ -20,9 +19,7 @@ If you do not finish during the lecture period, please finish it as homework.
 - Add `HelloWorld.go` to the checkout path and `commit / push` the file.
 - Test the `HelloWorld` program with "go run HelloWorld"
 - Optional, but desirable: Install Visual Studio Code, IntelliJ or any other Editor with Go support inside your virtual disk.
-- Try to run the hello world example code inside <https://goplay.tools/>
-  Alternative: https://play.golang.org/
-  Alternative: https://go-playground-wasm.vercel.app/
+- Try to compile simple go code inside <https://play.golang.org/>
 
 
 ## After this Exercise

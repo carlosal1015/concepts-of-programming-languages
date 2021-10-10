@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 // START OMIT
+func aBlock(i int) {
+	fmt.Printf("Entering block: i=%v\n", i)
+}
+
 func do(f func(int), loops int) {
 	for i := 0; i < loops; i++ {
 		f(i)
@@ -10,8 +14,7 @@ func do(f func(int), loops int) {
 }
 
 func main() {
-	printvalue := func(i int) { fmt.Println(i) }
-	do(printvalue, 5)
+	do(aBlock, 5)
 }
 
 // EOF OMIT
